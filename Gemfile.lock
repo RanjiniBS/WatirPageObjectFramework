@@ -1,0 +1,22 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+  x64-mingw32
+  x86-mingw32
+
+DEPENDENCIES
+  cucumber (>= 2.3.3)
+  headless (>= 2.2.3)
+  page-object (>= 1.1.1)
+  parallel_tests (>= 2.5.0)
+  rake (>= 11.1.2)
+  rspec (>= 3.4.0)
+  selenium-webdriver (>= 2.53.0)
+  watir
+  watir-webdriver (>= 0.9.1)
+
+BUNDLED WITH
+   1.12.5

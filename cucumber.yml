@@ -1,0 +1,1 @@
+default: -r features DISPLAY=:99.0 HEADLESS=false --tags ~@data --tags ~@cannot_automate --tags ~@obsoleted --tags ~@known_issue --tags ~@wip --tags ~@not_started --tags ~@skip --color --format pretty --format html --out result.html --format json --out reports.json #--dotcucumber features/.cucumber

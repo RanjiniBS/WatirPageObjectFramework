@@ -1,0 +1,26 @@
+﻿
+#
+# Possible Values:
+#
+#   browser     : [ ie | ff, firefox | chrome ]
+#   url         : [ https://t1-qa.xkit.co/ | ]
+#   username    : [ apoorv@thoughtworks.com | bhaimia@thoughtworks.com ]
+#   password    : [ password ]
+#   browser_px  : [ 1480 | 992 | 768 | 668 ]
+#
+#
+#  References:
+#           Extra small devices - Phones (<768px)
+#           Small devices - Tablets (68px)
+#           Medium devices - Desktops (92px)
+#           Large devices - Desktops (200px)
+#
+#  NOTE:
+#     values for the............................::   browser, url, username, password and browserpxl can be passed from
+#     command line / environment variables......::   WEBDRIVER, URL, USERNAME, PASSWORD, BROWSERPXL, else use the default one being set below
+##
+
+global:
+    browser     : firefox
+    url         : "https://jqueryui.com/"
+    browserpxl  : 1480
